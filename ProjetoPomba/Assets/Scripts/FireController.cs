@@ -20,5 +20,10 @@ public class FireController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+		if (other.gameObject.CompareTag ("Enemy")) 
+		{
+			Destroy(gameObject);
+			Destroy(other.gameObject);
+		}
     }
 }
