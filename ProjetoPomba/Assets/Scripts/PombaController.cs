@@ -90,7 +90,7 @@ public class PombaController : MonoBehaviour
         }
     }
 
-	void TiroTouch()
+	public void TiroTouch()
 	{
 
 		if (Time.time > nextFire)
@@ -104,6 +104,14 @@ public class PombaController : MonoBehaviour
 
 			Instantiate (tiro, spawnTiro.position, tiro.transform.rotation);
 		}
+	}
+
+	public void MovimentoTouchInicio(float direcao){
+		GetComponent<Rigidbody>().velocity = new Vector3(direcao * -speed,0,0);
+	}
+
+	public void MovimentoTouchFim(){
+		GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
 	}
 
     void PowerUpsController()
@@ -132,10 +140,10 @@ public class PombaController : MonoBehaviour
 
     void Movimento()
     {
-        // Mover pomba pra esqueda/direita
+        /*// Mover pomba pra esqueda/direita
         float moveHorizontal = Input.GetAxis("Horizontal");
         Vector3 movement = new Vector3(moveHorizontal, 0, 0);
-        GetComponent<Rigidbody>().velocity = movement * -speed;
+        GetComponent<Rigidbody>().velocity = movement * -speed;*/
 
         //Invisible walls
         GetComponent<Rigidbody>().position = new Vector3
@@ -149,7 +157,7 @@ public class PombaController : MonoBehaviour
         GetComponent<Rigidbody>().rotation = Quaternion.Euler(0, GetComponent<Rigidbody>().velocity.x * angle, 0);
 
         // Animations
-        if (moveHorizontal != 0)
+		if (GetComponent<Rigidbody>().velocity.x != 0)
         {
             anim.SetTrigger("Voar");
             voando = true;
