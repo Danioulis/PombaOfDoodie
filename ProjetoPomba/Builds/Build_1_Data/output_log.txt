@@ -1,0 +1,163 @@
+Mono path[0] = 'C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Builds/Build_1_Data/Managed'
+Mono path[1] = 'C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Builds/Build_1_Data/Mono'
+Mono config path = 'C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Builds/Build_1_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Builds/Build_1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55244
+Multi-casting "[IP] 25.129.110.20 [Port] 55244 [Flags] 2 [Guid] 1339174580 [EditorId] 2371917442 [Version] 1048832 [Id] WindowsPlayer(Leo) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [25.129.110.20:55244]
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.079 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Builds\Build_1_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 388 -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.542927 ms
+System memory in use before: 30.6 MB.
+System memory in use after: 30.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 607.
+Total: 0.632779 ms (FindLiveObjects: 0.083002 ms CreateObjectMapping: 0.051764 ms MarkObjects: 0.477931 ms  DeleteObjects: 0.017849 ms)
+
+1: 0 2: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 3 2: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 1 2: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 1 2: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 3 2: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 3 2: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 2 2: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 3 2: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 2 2: 3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+JOGO ACABA
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PombaController:VidaController() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:129)
+PombaController:OnTriggerEnter(Collider) (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:146)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/PombaController.cs Line: 129)
+
+1: 1 2: 0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+JOGO ACABA
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PombaController:VidaController() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:129)
+PombaController:OnTriggerEnter(Collider) (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:146)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/PombaController.cs Line: 129)
+
+1: 0 2: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+1: 3 2: 1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+
+JOGO ACABA
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PombaController:VidaController() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:129)
+PombaController:OnTriggerEnter(Collider) (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:146)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/PombaController.cs Line: 129)
+
+JOGO ACABA
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PombaController:VidaController() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:129)
+PombaController:OnTriggerEnter(Collider) (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\PombaController.cs:146)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/PombaController.cs Line: 129)
+
+1: 1 2: 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameController:InstantiateDrone() (at C:\Users\Leonardo\Documents\ProjetosUnity\Faculdade\ProjetoPomba\Assets\Scripts\GameController.cs:187)
+ 
+(Filename: C:/Users/Leonardo/Documents/ProjetosUnity/Faculdade/ProjetoPomba/Assets/Scripts/GameController.cs Line: 187)
+

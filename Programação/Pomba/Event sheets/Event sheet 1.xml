@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="Health" sid="9404643380694783" static="0" type="number">100</variable>
+        <event-block sid="3250521621618581">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5984826232754801" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="5100590292553226" type="Enemy">
+                    <param id="0" name="Width">Enemy.Width+0.1</param>
+                    <param id="1" name="Height">Enemy.Height+0.1</param>
+                </action>
+                <action id="-7" name="Set size" sid="278201667298866" type="Pole">
+                    <param id="0" name="Width">Pole.Width+0.5</param>
+                    <param id="1" name="Height">Pole.Height+0.09</param>
+                </action>
+                <action id="3" name="Set progress" sid="7316755396044594" type="ProgressBar">
+                    <param id="0" name="Value">Health</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="3421693643268302">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="5230517285637275" type="Keyboard">
+                    <param id="0" name="Key">32 (Space)</param>
+                </condition>
+                <condition id="17" name="On tap object" sid="153370238367631" type="Touch">
+                    <param id="0" name="Object">ButtonAction</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="8310967002978017" type="Player">
+                    <param id="0" name="Object">Poop</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7812676145509447">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="1901644534360276" type="Enemy">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">800</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="1483759664565716" type="Enemy">
+                    <param id="0" name="Angle">90</param>
+                </action>
+                <action id="-26" name="Move to layer" sid="3250432704413661" type="Enemy">
+                    <param id="0" name="Layer">2</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="979363925938519">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="8072510729685832" type="Enemy">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">LayoutWidth/2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-8" name="Set angle" sid="3265126196567407" type="Enemy">
+                            <param id="0" name="Angle">110</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1834311088801399">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="9089812889503368" type="Enemy">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="X co-ordinate">LayoutWidth/2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-8" name="Set angle" sid="8867624918230256" type="Enemy">
+                            <param id="0" name="Angle">70</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6206893177799408">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="572608226211223" type="System">
+                    <param id="0" name="Interval (seconds)">random(2,5)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="9118283060623932" type="System">
+                    <param id="0" name="Object to create">Enemy</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">random(136,584)</param>
+                    <param id="3" name="Y">1200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7370010721553088">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="9923255572979552" type="Enemy">
+                    <param id="0" name="Object">Poop</param>
+                </condition>
+                <condition id="-16" name="Is on layer" sid="3283602910138611" type="Enemy">
+                    <param id="0" name="Layer">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6484536111295605" type="Enemy" />
+                <action id="-9" name="Destroy" sid="9729070971876483" type="Poop" />
+            </actions>
+        </event-block>
+        <event-block sid="4680467905999536">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="6665398298408747" type="Pole">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Y co-ordinate">800</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-8" name="Set angle" sid="122288822671404" type="Pole">
+                    <param id="0" name="Angle">90</param>
+                </action>
+                <action id="-26" name="Move to layer" sid="715202250612829" type="Pole">
+                    <param id="0" name="Layer">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8543825365240948">
+            <conditions>
+                <condition id="-2" name="Compare Y" sid="6307367779409539" type="Pole">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Y co-ordinate">1200</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7942300117494463" type="Pole" />
+            </actions>
+        </event-block>
+        <event-block sid="2035847229533769">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="9692309634696641" type="System">
+                    <param id="0" name="Interval (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1821027094785169" type="System">
+                    <param id="0" name="Object to create">Pole</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">120</param>
+                    <param id="3" name="Y">1200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6276402295782619">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="1404691731353006" type="System">
+                    <param id="0" name="Interval (seconds)">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="2704987267869399" type="System">
+                    <param id="0" name="Object to create">Pole</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">600</param>
+                    <param id="3" name="Y">1200</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6031567449379396">
+            <conditions>
+                <condition id="-20" name="Is on mobile device" sid="1816099220343398" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="7141852448398269" type="ButtonAction">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7559264254365091" type="ButtonLeft">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2454521763373559" type="ButtonRight">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3156684974629858">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="3984423494731856" type="Touch">
+                    <param id="0" name="Object">ButtonLeft</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="1728085729887216" type="Player">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2519197963216769">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="9008668113896315" type="Touch">
+                    <param id="0" name="Object">ButtonRight</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="8139236334582203" type="Player">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9358592464686076">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="6006383134526727" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-16" name="Is on layer" sid="3091967543245538" type="Enemy">
+                    <param id="0" name="Layer">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="7050030621131946" type="Enemy">
+                    <param id="0" name="Object">Bullet</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-22" name="Set angle toward position" sid="3895586222563671" type="Bullet">
+                    <param id="0" name="X">Player.X</param>
+                    <param id="1" name="Y">Player.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7347948043780092">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8188918474960425" type="Bullet">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="5383301450870006" type="System">
+                    <param id="0" name="Variable">Health</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+                <action id="-9" name="Destroy" sid="9157252937373064" type="Bullet" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

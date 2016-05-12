@@ -1,0 +1,4 @@
+Planando : 20 -> 239
+Batendo Asa: 317 -> 388
+Dano: 418 -> 441
+Atirando: 519 -> 541
