@@ -86,6 +86,22 @@ public class PombaController : MonoBehaviour
         }
     }
 
+	void TiroTouch()
+	{
+
+		if (Time.time > nextFire)
+		{
+			anim.SetTrigger ("Atirar");
+
+			nextFire = Time.time + fireRate;
+
+			indiceSound = Random.Range (1, 3);
+			GetComponent<AudioSource> ().PlayOneShot (sound [2]);
+
+			Instantiate (tiro, spawnTiro.position, tiro.transform.rotation);
+		}
+	}
+
     void PowerUpsController()
     {
         // ------------------------------------------------------- MUDAR PARA WaitForSeconds -------------------------------------------------------------------
@@ -140,6 +156,30 @@ public class PombaController : MonoBehaviour
             anim.SetTrigger("PararDeVoar");
         }
     }
+
+	void MovimentoTouchEsquerda()
+	{
+
+		float moveHorizontal = -1;
+		Vector3 movement = new Vector3(moveHorizontal, 0, 0);
+		GetComponent<Rigidbody>().velocity = movement * -speed;
+
+		//Invisible walls
+		GetComponent<Rigidbody>().position = new Vector3
+			(
+				Mathf.Clamp(GetComponent<Rigidbody>().position.x, invWalls.xMin, invWalls.xMax),
+				transform.position.y,
+				transform.position.z
+			);
+
+	}
+
+	void MovimentoTouchDireita()
+	{
+
+
+
+	}
 
     void VidaController()
     {
