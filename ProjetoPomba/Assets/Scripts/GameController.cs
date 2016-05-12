@@ -141,7 +141,7 @@ public class GameController : MonoBehaviour
             Instantiate(mapas[indice], transform.position, transform.rotation);
 
             GameObject pontoVerificacao = GameObject.FindWithTag("pontoVerificacao");
-            pontoVerificacao.tag = "pontoVerificao2";
+            //pontoVerificacao.tag = "pontoVerificao2";
 
             indice++;
         }
