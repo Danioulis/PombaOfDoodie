@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 819859a9c79e66841bffb345b8858952
+timeCreated: 1463093576
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Icones_versao02_0
+    21300002: Pena
+    21300004: Maca
+    21300006: Icones_versao02_3
+    21300008: Icones_versao02_4
+    21300010: Icones_versao02_5
+    21300012: Icones_versao02_6
+    21300014: Icones_versao02_7
+    21300016: Icones_versao02_8
+    21300018: Icones_versao02_9
+    21300020: Icones_versao02_10
+    21300022: Icones_versao02_11
+    21300024: Icones_versao02_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 1
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 256
+    textureFormat: -1
+    compressionQuality: 50
+    allowsAlphaSplitting: 1
+  spriteSheet:
+    sprites:
+    - name: Icones_versao02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -115, y: -26}
+        - {x: -114, y: -29}
+        - {x: -111, y: -29}
+        - {x: -107, y: -25}
+        - {x: -107, y: -23}
+        - {x: -110, y: -22}
+      - - {x: -84, y: -20}
+        - {x: -91, y: -23}
+        - {x: -93, y: -26}
+        - {x: -92, y: -29}
+        - {x: -89, y: -29}
+        - {x: -83, y: -26}
+        - {x: -81, y: -23}
+        - {x: -81, y: -21}
+      - - {x: -66, y: 123}
+        - {x: -90, y: 123}
+        - {x: -98, y: 120}
+        - {x: -107, y: 60}
+        - {x: -107, y: 17}
+        - {x: -86, y: -23}
+        - {x: -54, y: -23}
+        - {x: -46, y: -21}
+        - {x: -46, y: 115}
+        - {x: -49, y: 122}
+      - - {x: -11, y: -19}
+        - {x: 98, y: -19}
+        - {x: 128, y: 13}
+        - {x: 128, y: 98}
+        - {x: 123, y: 109}
+        - {x: 61, y: 128}
+        - {x: 3, y: 128}
+        - {x: -11, y: 123}
+      - - {x: 24, y: -16}
+        - {x: 27, y: -15}
+        - {x: 27, y: -12}
+        - {x: 24, y: -11}
+        - {x: 22, y: -13}
+      - - {x: -64, y: -1}
+        - {x: -64, y: -3}
+        - {x: -62, y: -5}
+        - {x: -58, y: -4}
+        - {x: -55, y: 0}
+        - {x: -55, y: 2}
+        - {x: -58, y: 3}
+      - - {x: -41, y: 1}
+        - {x: -43, y: -2}
+        - {x: -41, y: -5}
+        - {x: -37, y: -4}
+        - {x: -33, y: 0}
+        - {x: -33, y: 2}
+        - {x: -36, y: 3}
+      - - {x: -1, y: 3}
+        - {x: -1, y: 2}
+        - {x: 5, y: -4}
+        - {x: 8, y: -2}
+        - {x: 7, y: 2}
+        - {x: 3, y: 5}
+        - {x: 1, y: 5}
+      - - {x: -66, y: 11}
+        - {x: -65, y: 8}
+        - {x: -62, y: 8}
+        - {x: -60, y: 10}
+        - {x: -61, y: 13}
+        - {x: -64, y: 13}
+      - - {x: -7, y: 10}
+        - {x: -1, y: 10}
+        - {x: -1, y: 14}
+        - {x: -3, y: 16}
+        - {x: -5, y: 16}
+        - {x: -7, y: 15}
+      - - {x: -30, y: 24}
+        - {x: -27, y: 25}
+        - {x: -27, y: 28}
+        - {x: -30, y: 29}
+        - {x: -32, y: 27}
+      - - {x: -42, y: 49}
+        - {x: -42, y: 33}
+        - {x: -40, y: 33}
+        - {x: -37, y: 34}
+        - {x: -35, y: 47}
+        - {x: -37, y: 49}
+      - - {x: -20, y: 49}
+        - {x: -20, y: 33}
+        - {x: -18, y: 33}
+        - {x: -15, y: 34}
+        - {x: -13, y: 47}
+        - {x: -15, y: 49}
+      - - {x: -37, y: 53}
+        - {x: -37, y: 51}
+        - {x: -35, y: 49}
+        - {x: -34, y: 49}
+        - {x: -31, y: 52}
+        - {x: -32, y: 55}
+        - {x: -35, y: 55}
+      - - {x: -15, y: 53}
+        - {x: -15, y: 51}
+        - {x: -13, y: 49}
+        - {x: -12, y: 49}
+        - {x: -9, y: 52}
+        - {x: -10, y: 55}
+        - {x: -13, y: 55}
+      - - {x: -111, y: 56}
+        - {x: -109, y: 54}
+        - {x: -106, y: 55}
+        - {x: -106, y: 58}
+        - {x: -108, y: 60}
+        - {x: -111, y: 59}
+      - - {x: 9, y: 105}
+        - {x: 12, y: 106}
+        - {x: 12, y: 109}
+        - {x: 9, y: 110}
+        - {x: 7, y: 108}
+    - name: Pena
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 210
+        width: 140
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -75.5}
+        - {x: -4, y: -73.5}
+        - {x: -7, y: -72.5}
+        - {x: -9, y: -75.5}
+      - - {x: -16, y: 70.5}
+        - {x: -30, y: 24.5}
+        - {x: -30, y: -49.5}
+        - {x: -12, y: -75.5}
+        - {x: 9, y: -75.5}
+        - {x: 31, y: -61.5}
+        - {x: 31, y: 70.5}
+      - - {x: 13, y: -53.5}
+        - {x: 13, y: -55.5}
+        - {x: 15, y: -57.5}
+        - {x: 19, y: -56.5}
+        - {x: 22, y: -52.5}
+        - {x: 22, y: -50.5}
+        - {x: 19, y: -49.5}
+      - - {x: 11, y: -41.5}
+        - {x: 12, y: -44.5}
+        - {x: 15, y: -44.5}
+        - {x: 17, y: -42.5}
+        - {x: 16, y: -39.5}
+        - {x: 13, y: -39.5}
+      - - {x: -34, y: 3.5}
+        - {x: -32, y: 1.5}
+        - {x: -29, y: 2.5}
+        - {x: -29, y: 5.5}
+        - {x: -31, y: 7.5}
+        - {x: -34, y: 6.5}
+    - name: Maca
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 176
+        width: 284
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 84}
+        - {x: -68, y: 36}
+        - {x: -68, y: -45}
+        - {x: -18, y: -63}
+        - {x: 40, y: -63}
+        - {x: 71, y: -32}
+        - {x: 71, y: 50}
+        - {x: 28, y: 84}
+      - - {x: -33, y: -60}
+        - {x: -30, y: -59}
+        - {x: -30, y: -56}
+        - {x: -33, y: -55}
+        - {x: -35, y: -57}
+      - - {x: -58, y: -42}
+        - {x: -52, y: -48}
+        - {x: -49, y: -46}
+        - {x: -50, y: -42}
+        - {x: -52, y: -39}
+        - {x: -56, y: -39}
+        - {x: -58, y: -40}
+      - - {x: -64, y: -34}
+        - {x: -58, y: -34}
+        - {x: -58, y: -30}
+        - {x: -60, y: -28}
+        - {x: -62, y: -28}
+        - {x: -64, y: -29}
+      - - {x: -71, y: 11}
+        - {x: -71, y: 5}
+        - {x: -69, y: 5}
+        - {x: -66, y: 8}
+        - {x: -67, y: 11}
+      - - {x: -48, y: 61}
+        - {x: -45, y: 62}
+        - {x: -45, y: 65}
+        - {x: -48, y: 66}
+        - {x: -50, y: 64}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
