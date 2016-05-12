@@ -14,6 +14,8 @@ public class PombaController : MonoBehaviour
     public GameObject maca;
     public InvisibleWalls invWalls;
 
+	public Material pombaMaterial;
+
     public Transform reference;
     public Transform spawnTiro;
 
@@ -45,6 +47,7 @@ public class PombaController : MonoBehaviour
 
     void Start()
     {
+		
         morreu = false;
         powerUp = false;
         indiceVidas = 2;
@@ -55,6 +58,7 @@ public class PombaController : MonoBehaviour
         invWalls.xMin = -14;
         invWalls.xMax = 17;
         angle = 2;
+		pombaMaterial.SetColor ("_Color", Color.white);
     }
 
     void Update()
@@ -157,33 +161,12 @@ public class PombaController : MonoBehaviour
         }
     }
 
-	void MovimentoTouchEsquerda()
-	{
-
-		float moveHorizontal = -1;
-		Vector3 movement = new Vector3(moveHorizontal, 0, 0);
-		GetComponent<Rigidbody>().velocity = movement * -speed;
-
-		//Invisible walls
-		GetComponent<Rigidbody>().position = new Vector3
-			(
-				Mathf.Clamp(GetComponent<Rigidbody>().position.x, invWalls.xMin, invWalls.xMax),
-				transform.position.y,
-				transform.position.z
-			);
-
-	}
-
-	void MovimentoTouchDireita()
-	{
-
-
-
-	}
-
     void VidaController()
     {
         vida--;
+		pombaMaterial.SetColor ("_Color", Color.red);
+		GetComponent<BoxCollider> ().enabled = false;
+		Invoke ("FimDano", 1.0f);
         if (vida <= 0)
         {
             morreu = true;
@@ -196,6 +179,14 @@ public class PombaController : MonoBehaviour
             indiceVidas--;
         }
     }
+
+	void FimDano()
+	{
+
+		pombaMaterial.SetColor ("_Color", Color.white);
+		GetComponent<BoxCollider> ().enabled = true;
+
+	}
 
     void OnTriggerEnter(Collider other)
     {
